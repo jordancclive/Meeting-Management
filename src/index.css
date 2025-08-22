@@ -1,0 +1,46 @@
+/* PLEASE NOTE: THESE TAILWIND IMPORTS SHOULD NEVER BE DELETED */
+@import 'tailwindcss/base';
+@import 'tailwindcss/components';
+@import 'tailwindcss/utilities';
+/* DO NOT DELETE THESE TAILWIND IMPORTS, OTHERWISE THE STYLING WILL NOT RENDER AT ALL */
+/* Import fonts */
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap');
+/* Typography styles */
+@layer base {
+  h1 {
+    font-family: "Roboto Slab", serif;
+    font-optical-sizing: auto;
+    font-weight: 600;
+    font-style: normal;
+    font-size: 32px;
+    @apply text-slate-900;
+  }
+  h2 {
+    font-family: "Roboto Slab", serif;
+    font-optical-sizing: auto;
+    font-weight: 600;
+    font-style: normal;
+    font-size: 22px;
+    @apply text-slate-900;
+  }
+  h3 {
+    font-family: "Roboto Slab", serif;
+    font-optical-sizing: auto;
+    font-weight: 600;
+    font-style: normal;
+    @apply text-lg text-slate-900;
+  }
+  h4 {
+    @apply font-inter font-semibold text-base text-slate-900;
+  }
+  .body1 {
+    @apply font-inter text-base text-slate-900;
+  }
+  .body2 {
+    @apply font-inter text-base text-slate-500;
+  }
+  .body3 {
+    @apply font-inter text-xs text-slate-500;
+  }
+}
